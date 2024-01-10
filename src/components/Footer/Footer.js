@@ -4,10 +4,10 @@ import React from "react";
 let Footer = function(props){
     return(
         <div id="contact" >
-        <div className="md:hidden bg-black h-[45%] text-white grid grid-rows-2 space-y-8 items-center  w-full">
+        <div className="md:hidden bg-[#1F1F1F] h-[45%] text-white grid grid-rows-2 space-y-8 items-center  w-full">
             {/* Mobile View */}
-            <div className="grid grid-rows-2 ml-8 mt-6">
-                <div className="self-center row-span-1 flex flex-col justify-center ">
+            <div className="grid grid-rows-2 ml-8 mt-6 justify-center">
+                <div className="row-span-1 flex flex-col">
                     <svg width="100" height="51" viewBox="0 0 100 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M23.8113 26.3979L40.0507 16.5247C43.8733 14.2021 45.1777 9.05227 42.9734 5.02467C40.769 0.997064 35.8815 -0.377373 32.059 1.94524L3.99698 19.0126L23.8113 26.3979Z" fill="#EA4335"/>
                         <path d="M36.0439 51.7903C38.8014 51.7903 41.4928 50.2767 42.9706 47.58C45.1749 43.5524 43.8705 38.4027 40.048 36.0801L11.986 19.0128C8.16346 16.6902 3.27593 18.0646 1.07158 22.0922C-1.13276 26.1198 0.17169 31.2696 3.9942 33.5922L32.0562 50.6595C33.3194 51.425 34.6899 51.7903 36.0439 51.7903Z" fill="#4285F4"/>
@@ -18,11 +18,8 @@ let Footer = function(props){
                         <b>GDSC NITJ</b>
                     </h6>
                 </div>
-                <div className="row-span-1 w-[50%] flex items-center pt-4">
-                    <button href="" className="bg-black w-full text-white p-4 text-xs leading-4 font-medium border-[1.69px] border-white shadow-[5px_5px_0px_#FFFFFF]">Learn More About GDSC</button>
-                </div>
-                <div className="mt-4">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d971.6747365938792!2d75.53538186206131!3d31.394615584952412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a517fe8cab485%3A0x599034240e7481a9!2sIT%20Building%20Or%20Cse%20Building!5e0!3m2!1sen!2sin!4v1675422316060!5m2!1sen!2sin" width="300" height="150" style={{ border: "0" }}  allowFullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div className="row-span-1 -ml-8 w-auto flex items-center pt-4">
+                    <button href="" className="bg-[#70E852] w-full p-4 text-xs text-black leading-4 font-extrabold border-[1.69px] border-black shadow-[5px_5px_0px_#69FF93]">Learn More About GDSC</button>
                 </div>
             </div>
             <div className="grid grid-rows-3 w-full mt-6">
@@ -50,12 +47,12 @@ let Footer = function(props){
                     </div>
                 </div>
                 <div className="col-span-1 text-[#818181] pl-8 self-center">
-                    <h1 className="text-xs font-Plus-Jakarta">Ⓒ 2022 Hackmol.in</h1>
+                    <h1 className="text-xs font-Plus-Jakarta">Ⓒ 2023 hackmol.tech</h1>
                 </div>
             </div>
 
         </div>
-        <div className="md:grid hidden w-full h-96 bg-black items-center">
+        <div className="md:grid hidden w-full h-96 bg-[#1F1F1F] items-center">
             <div className="ml-20 mr-20 flex justify-between self-center w-10/12 ">
 
                 {/* Left Column */}
@@ -68,7 +65,7 @@ let Footer = function(props){
                             <path d="M92.0016 34.7227C94.7591 34.7227 97.4506 33.2178 98.9284 30.5124C101.133 26.4848 99.8283 21.3351 96.0058 19.0125L67.9437 1.94524C64.1212 -0.377369 59.2337 0.997064 57.0294 5.02465C54.825 9.05224 56.1294 14.202 59.952 16.5246L88.014 33.5919C89.2689 34.3574 90.6477 34.7227 92.0016 34.7227Z" fill="#34A853"/>
                         </svg>
                     </div>
-                    <div className="h-[72px] row-span-1 self-start">
+                    <div className="flex flex-col h-[72px] row-span-1 self-start">
                         
                     <h6 className="text-white font-Plus-Jakarta text-[13px] font-bold leading-4  w-64  mt-2 text-center">
                         <b>GDSC NITJ</b>
@@ -78,11 +75,9 @@ let Footer = function(props){
                     </div>
                 </div>
                 
-
-                {/* Right Column */}
-                <div className="relative flex items-center ml-5 justify-center">
-                
-                    <div className="absolute w-[266px] h-[160px] grid grid-rows-2">
+                {/* social Links */}
+                <div className="">
+                    <h1 className="text-white font-bold">FOLLOW DSC NITJ</h1>
                         <div className="flex flex-row justify-between">
                             {/* Twitter */}
                             <Link href="https://twitter.com/GDSCNitj"  rel="noreferrer" target="_blank"><svg className="p-1 h-[35px] w-[35px] fill-white hover:fill-blue" width="26" height="21" viewBox="0 0 26 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M25.4924 0.557746C24.4107 1.32079 23.2129 1.90439 21.9453 2.28609C21.265 1.50383 20.3608 0.949382 19.3551 0.697737C18.3494 0.446093 17.2906 0.509393 16.3221 0.879075C15.3535 1.24876 14.5218 1.90699 13.9396 2.76474C13.3573 3.62249 13.0524 4.63837 13.0664 5.675V6.80464C11.0812 6.85611 9.1141 6.41583 7.34026 5.523C5.56643 4.63017 4.04094 3.31252 2.89966 1.68738C2.89966 1.68738 -1.6189 11.8541 8.54784 16.3727C6.22139 17.9519 3.44997 18.7437 0.640381 18.6319C10.8071 24.2801 23.2331 18.6319 23.2331 5.64111C23.232 5.32646 23.2018 5.01258 23.1428 4.70352C24.2956 3.56653 25.1093 2.131 25.4924 0.557746Z"/></svg></Link>
@@ -93,16 +88,21 @@ let Footer = function(props){
                             {/* Facebook */}
                             <Link href="https://www.facebook.com/DSCNITJ/"  rel="noreferrer"  target="_blank"><svg className="p-1 h-[35px] w-[35px] fill-white hover:fill-blue" width="12" height="21" viewBox="0 0 12 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.4737 0.546387H8.47935C7.15574 0.546387 5.88634 1.08028 4.95041 2.03062C4.01447 2.98094 3.48867 4.26988 3.48867 5.61385V8.65433H0.494263V12.7083H3.48867V20.8163H7.48122V12.7083H10.4756L11.4737 8.65433H7.48122V5.61385C7.48122 5.34506 7.58637 5.08727 7.77357 4.8972C7.96075 4.70714 8.21463 4.60036 8.47935 4.60036H11.4737V0.546387Z"/></svg></Link>
                         </div>
+                        </div>        
+                {/* Learn about GDSC */}
                         <div className="">
-                            <button className="bg-black w-full text-white p-4 text-xs leading-4 font-medium border-[1.69px] border-white shadow-[5px_5px_0px_#FFFFFF]"><a target={"_blank"} rel="noreferrer" href="https://gdsc.community.dev/dr-b-r-ambedkar-national-institute-of-technology-nit-jalandhar/">Learn More About GDSC</a></button>
+                            <button className="bg-[#70E852] w-full p-4 text-md leading-4 font-bold border-[1.69px] border-white shadow-[5px_5px_0px_#FFFFFF]"><a target={"_blank"} rel="noreferrer" href="https://gdsc.community.dev/dr-b-r-ambedkar-national-institute-of-technology-nit-jalandhar/">Learn More About GDSC</a></button>
                         </div>
-                    </div>
-                </div>
-                <div className="border-2">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d971.6747365938792!2d75.53538186206131!3d31.394615584952412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a517fe8cab485%3A0x599034240e7481a9!2sIT%20Building%20Or%20Cse%20Building!5e0!3m2!1sen!2sin!4v1675422316060!5m2!1sen!2sin" width="200" height="150" style={{ border: "0" }}  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
             </div>
-            
+            <div className='md:flex hidden bg-[#313131] text-white h-[72px] justify-center items-center w-full font-Jakarta font-light'>
+            {/* <div className='p-32'> */}
+                <Link className="hover:underline mx-4" href="#">Contact Us</Link>
+                <Link className="hover:underline mx-4" href="#">University</Link>
+                <Link className="hover:underline mx-4" href="#">Website</Link>
+                <Link className="hover:underline mx-4" href="#">Terms of Service</Link>
+                <Link className="hover:underline mx-4" href="#">Privacy Policy</Link>
+            {/* </div> */}
+        </div>
         </div>
         </div>
     )

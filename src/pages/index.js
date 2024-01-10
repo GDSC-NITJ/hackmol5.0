@@ -65,8 +65,7 @@ export default function Home() {
 
       <Testimonies/>
       {/* <FAQ></FAQ> */}
-      <Footer></Footer>
-      <FooterLinks></FooterLinks>
+      <Footer/>
     </div>
   )
 }
