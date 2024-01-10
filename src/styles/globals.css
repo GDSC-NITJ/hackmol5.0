@@ -11,14 +11,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* // tailwind.css or your custom CSS file */
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=VT323&display=swap');
-
-
 
 html,
 body {
   padding: 0;
   margin: 0;
  }
-
