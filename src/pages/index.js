@@ -5,8 +5,7 @@ import About from '../components/About/About'
 import Banner from '../components/Hero/Banner'
 import Banner2 from '../components/Hero/Banner2'
 import Announcement from '../components/Announcement'
-import Footer from '../components/Footer/Footer'
-import FooterLinks from '../components/Footer/FooterLinks'
+import Footer from '../components/Footer'
 import Schedule from '../components/Timeline/Schedule'
 import Sponsers from '../components/Sponsers/Sponsers'
 import Judges from '../components/Judges/Judges'
@@ -69,7 +68,6 @@ export default function Home() {
       <Testimonies/>
       {/* <FAQ></FAQ> */}
       <Footer></Footer>
-      <FooterLinks></FooterLinks>
     </div>
   );
 }
