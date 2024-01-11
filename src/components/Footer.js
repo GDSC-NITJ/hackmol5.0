@@ -21,7 +21,7 @@ let Footer = function(props){
             <div className="m-auto ml-20 mr-20 md:flex justify-between self-center w-10/12 order-1 md:order-2">
                 {/* Info about GDSC */}
                 <div className="md:inline-flex pb-20">
-                    <div className="self-start m-auto row-span-1 w-16 md:w-64 flex justify-center hover:animate-[bounce_2s_linear_infinite]">
+                    <div className="self-start m-auto row-span-1 w-16 md:w-64 flex justify-center hover:animate-[bounce_1s_linear_infinite]">
                         <svg width="180" height="90" viewBox="0 0 100 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M23.8113 26.3979L40.0507 16.5247C43.8733 14.2021 45.1777 9.05227 42.9734 5.02467C40.769 0.997064 35.8815 -0.377373 32.059 1.94524L3.99698 19.0126L23.8113 26.3979Z" fill="#EA4335"/>
                             <path d="M36.0439 51.7903C38.8014 51.7903 41.4928 50.2767 42.9706 47.58C45.1749 43.5524 43.8705 38.4027 40.048 36.0801L11.986 19.0128C8.16346 16.6902 3.27593 18.0646 1.07158 22.0922C-1.13276 26.1198 0.17169 31.2696 3.9942 33.5922L32.0562 50.6595C33.3194 51.425 34.6899 51.7903 36.0439 51.7903Z" fill="#4285F4"/>
@@ -39,7 +39,7 @@ let Footer = function(props){
                 </div>
                 {/* Learn about GDSC */}
                         <div className="">
-                            <button className="ml-3"><a target={"_blank"} rel="noreferrer" href="https://gdsc.community.dev/dr-b-r-ambedkar-national-institute-of-technology-nit-jalandhar/"><svg width="300" height="72" viewBox="0 0 211 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <button className="-ml-6 p-8"><a target={"_blank"} rel="noreferrer" href="https://gdsc.community.dev/dr-b-r-ambedkar-national-institute-of-technology-nit-jalandhar/"><svg width="300" height="72" viewBox="0 0 211 36" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="16.0382" y="32.2051" width="194.086" height="1.55514" fill="#69FF93"/>
 <rect x="13.902" y="31.1685" width="196.219" height="1.03676" fill="#69FF93"/>
 <rect x="11.771" y="29.6143" width="197.285" height="1.55514" fill="#69FF93"/>
