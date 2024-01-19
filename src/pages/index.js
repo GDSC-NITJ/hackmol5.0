@@ -2,16 +2,16 @@ import Banner2 from "../components/hero/banner";
 import Hackmol from   "../components/hero/img";
 import Register from  "../components/hero/reg";
 import Log from "../components/hero/logo";
-import NavBar from "../components/Hero/nav";
+import NavBar from '@/components/hero/nav';
 import Link from 'next/link'
-import Marquee from "../components/Hero/marquee";
+import Marquee from "../components/hero/marquee";
 import Testimonies from "../components/Testimonies";
 import Rules from "../components/Rules/Rules";
 import FAQ from "../components/FAQ/FAQ";
 import PrizeSection from "../components/PrizeSection";
 import Track from "../components/track";
 import Footer from "../components/Footer";
-import HeroSection from "../components/Hero/HeroSection";
+import HeroSection from "../components/hero/HeroSection";
 
 
 
