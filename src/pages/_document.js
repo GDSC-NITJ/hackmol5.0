@@ -39,6 +39,12 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
+        <Script
+          src="https://apply.devfolio.co/v2/sdk.js"
+          strategy="beforeInteractive"
+          defer
+          async
+        ></Script>
       </body>
     </Html>
   );
