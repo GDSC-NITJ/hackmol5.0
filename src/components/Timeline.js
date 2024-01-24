@@ -16,8 +16,13 @@ import clock from "../../public/images/timeline/clock.svg";
 function Timeline() {
   return (
     <>
-      <div id='schedule' className={`px-[58.75px] max-[1048px]:px-[30px]   py-[40px] `}>
-        <div className={` font-Minecraft m-auto text-7xl  text-center   text-black  mb-12`}>
+      <div
+        id="schedule"
+        className={`px-[58.75px] max-[1048px]:px-[30px]   py-[40px] `}
+      >
+        <div
+          className={` font-Minecraft m-auto text-7xl  text-center   text-black  mb-12`}
+        >
           EVENT TIMELINE
         </div>
         <div className=" flex justify-center align-center ">
@@ -26,33 +31,33 @@ function Timeline() {
           >
             {/* desktop-border */}
             <div className=" -rotate-90 absolute top-[-452px] left-[465px] max-[990px]:hidden">
-              <img src={topborder.src} alt="#" />
+              <img src={topborder.src} alt="" />
             </div>
             <div className="absolute top-[8px] left-0 max-[990px]:hidden">
-              <img src={leftborder.src} alt="#" />
+              <img src={leftborder.src} alt="" />
             </div>
             <div className="absolute top-[2px] right-0 max-[990px]:hidden">
-              <img src={rightborder.src} alt="#" />
+              <img src={rightborder.src} alt="" />
             </div>
             <div className="absolute bottom-0 left-[8px] max-[990px]:hidden">
-              <img src={bottomborder.src} alt="#" />
+              <img src={bottomborder.src} alt="" />
             </div>
             <div className=" absolute top-[-13.6px] left-[-37.7px] max-[990px]:hidden">
               <img src={borderstyle.src} alt="" />
             </div>
             {/* mobile-border */}
             <div className={`absolute top-[8px] right-[0]  ${style2.display}`}>
-              <img src={topbordermob.src} alt="#" />
+              <img src={topbordermob.src} alt="" />
             </div>
             <div
               className={`absolute top-[0] left-0 max-[990px]:blocks ${style2.display}`}
             >
-              <img src={leftbordermob.src} alt="#" />
+              <img src={leftbordermob.src} alt="" />
             </div>
             <div
               className={`absolute bottom-[-4px] left-[0] ${style2.display}`}
             >
-              <img src={bottombordermob.src} alt="#" />
+              <img src={bottombordermob.src} alt="" />
             </div>
             <div
               className={`absolute top-[-39px] right-[-16px] ${style2.display}`}
@@ -81,7 +86,7 @@ function Timeline() {
                   className={` ${style2.borderbox}  ${style2.paddinginbox} relative`}
                 >
                   <div className="absolute top-[-7px] right-[18px]">
-                    <img src={ribbon.src} alt="#" />
+                    <img src={ribbon.src} alt="" />
                   </div>
                   <div>Hackathon starts</div>
                   <div className="flex">

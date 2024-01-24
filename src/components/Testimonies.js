@@ -5,12 +5,14 @@ import style from "../styles/testimonie.module.css";
 function Testimonies() {
   return (
     <div className="flex flex-col text-center bg-[#1F1F1F] p-0 space-y-4  px-2vw h-fit mt-[-2px] pb-[10px] ">
-      <div className={` m-auto py-2 font-Minecraft text-white my-12  ${style.heading1} lg:text-6xl text-3xl md:text-2xl sm:text-xl`}>
+      <div
+        className={` m-auto py-2 font-Minecraft text-white my-12  ${style.heading1} lg:text-6xl text-3xl md:text-2xl sm:text-xl`}
+      >
         PREVIOUS YEAR REVIEWS
       </div>
       <div className=" flex relative font-Space-Grotesk">
         <div className=" relative md:top-[1vw]  top-[12vw]  lg:left-[50px] xl:left-[80px] z-[4] lg:top-[-2vw]">
-          <img src={t1.src} alt="#" className="z-[4]" />
+          <img src={t1.src} alt="" className="z-[4]" />
         </div>
 
         <div className="bg-white text-center  border-4 border-pink-400 lg:w-[60vw] lg:h-fit w-fit h-fit relative   lg:left-[-14vw] xl:left-[-8vw] left-[-20vw] right-0  md:pl-[11vw] pl-[7vw] pr-[1vw] py-[3vw] lg:pl-[6vw]   ">
@@ -79,7 +81,7 @@ function Testimonies() {
         </div>
         z
         <div className="relative  md:top-[1vw] top-[11vw]  lg:top-[-10px] md:left-0 xl:top-[-2vw]   xl:left-[5vw] 2xl:left-[8vw] ">
-          <img src={t2.src} className="" alt="#" />
+          <img src={t2.src} className="" alt="" />
         </div>
       </div>
     </div>

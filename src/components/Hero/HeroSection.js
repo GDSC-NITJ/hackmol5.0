@@ -56,7 +56,7 @@ function HeroSection() {
         <div className="hero-logo flex relative py-8">
           <img
             data-src={heroText.src} // Use data-src for lazy loading
-            alt="#"
+            alt=""
             style={{ mixBlendMode: "hard-light" }}
             className="w-[22rem] sm:w-[40rem] lg:w-[60rem]"
             loading="lazy" // Enable lazy loading
@@ -77,7 +77,7 @@ function HeroSection() {
               window.scrollTo({ top: scrollDiv, behavior: "smooth" });
             }}
           >
-            <img data-src={linkArrow.src} alt="#" loading="lazy" />
+            <img data-src={linkArrow.src} alt="" loading="lazy" />
           </div>
           <div className="flex flex-col-reverse justify-center items-center gap-4 sm:flex-row">
             <div
@@ -91,9 +91,9 @@ function HeroSection() {
               onMouseLeave={() => setIsHovered(false)}
             >
               {isHovered ? (
-                <img data-src={regButtonHover.src} alt="#" loading="lazy" />
+                <img data-src={regButtonHover.src} alt="" loading="lazy" />
               ) : (
-                <img data-src={regButton.src} alt="#" loading="lazy" />
+                <img data-src={regButton.src} alt="" loading="lazy" />
               )}
             </div>
           </div>
